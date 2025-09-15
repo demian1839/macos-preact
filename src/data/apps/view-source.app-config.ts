@@ -5,5 +5,5 @@ export const viewSourceAppConfig = createAppConfig({
   resizable: true,
 
   shouldOpenWindow: false,
-  externalAction: () => window.open('', '_blank'),
+  externalAction: () => window.open('https://oregonhub.netlify.app', '_blank'),
 });
