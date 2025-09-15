@@ -5,7 +5,7 @@ export const purusTwitterAppConfig = createAppConfig({
   resizable: true,
 
   shouldOpenWindow: false,
-  externalAction: () => window.open('https://twitter.com/puruvjdev', '_blank'),
+  externalAction: () => window.open('', '_blank'),
 
   dockBreaksBefore: true,
 });
